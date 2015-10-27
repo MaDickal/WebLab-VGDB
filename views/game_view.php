@@ -2,7 +2,7 @@
 
 <br>
 
-Game ID: <?= $game->getGID() ?><br>
+<!-- Game ID: <?= $game->getGID() ?><br> -->
 Game Name: <?= $game->getName() ?><br>
 Game Genre: <?= $game->getGenre() ?><br>
 # of Players: <?= $game->getPlayers() ?><br>

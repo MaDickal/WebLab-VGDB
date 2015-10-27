@@ -53,10 +53,9 @@
            $arr["img"] = isset($_GET["img"])?$_GET["img"]:'';
            $game = new game();
            $game->Navi($arr);
-           $gameManager->save($game);
-           ?>
+           $gameManager->save($game); ?>
            <a href='games.php' class='button'>View All Games</a>
-           <?php
+<?php
            break;
 
         default:

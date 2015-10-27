@@ -1,7 +1,7 @@
 
 <table>
     <tr>
-        <td>Game ID</td>
+        <!-- <td>Game ID</td> -->
         <td>Game Name</td>
         <td>Genres</td>
         <td># of Players</td>
@@ -9,7 +9,7 @@
     </tr>
   <?php foreach($games as $game){ ?>
   <tr>
-    <td><?= $game->getGID() ?></td>
+    <!-- <td><?= $game->getGID() ?></td> -->
     <td><?= $game->getName() ?></td>
     <td><?= $game->getGenre() ?></td>
     <td><?= $game->getPlayers() ?></td>
