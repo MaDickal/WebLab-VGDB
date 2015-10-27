@@ -54,6 +54,9 @@
            $game = new game();
            $game->Navi($arr);
            $gameManager->save($game);
+           ?>
+           <a href='games.php' class='button'>View All Games</a>
+           <?php
            break;
 
         default:
